@@ -4,11 +4,11 @@ machine_translated_rev: 5decc73b5dc60054f19087d3690c4eb99446a6c3
 toc_title: LIMIT
 ---
 
-# 限制条款 {#limit-clause}
+# 限制 {#limit-clause}
 
-`LIMIT m` 允许选择第一个 `m` 结果中的行。
+`LIMIT m` 返回前 `m` 行数据。
 
-`LIMIT n, m` 允许选择 `m` 跳过第一个结果后的行 `n` 行。 该 `LIMIT m OFFSET n` 语法是等效的。
+`LIMIT n, m` 跳过 `n` 行数据，然后第 `n` 行后面的 `m` 行数据。 该 `LIMIT m OFFSET n` 语法是等效的。
 
 `n` 和 `m` 必须是非负整数。
 
